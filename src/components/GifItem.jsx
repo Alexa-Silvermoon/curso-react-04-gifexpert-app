@@ -5,7 +5,7 @@ export const GifItem = ( { title, url, id } ) => {
 
   // console.log( props );
   // console.log( image );
-  console.log( { title, url, id } );
+  // console.log( { title, url, id } );
 
   // finalmente renderiza los gif en el html
   return (

@@ -30,7 +30,7 @@ export const GifExpertApp = () => {
 
         <>
             {/* titulo */}
-            <h1>GifExpertApp</h1>
+            <h1>GifExpertApp - By Alexander Martinez Millan</h1>
 
             {/* input */}
             {/* {<AddCategory setCategories={ setCategories }></AddCategory>} */}

@@ -9,7 +9,7 @@ export const AddCategory = ({ onNewCategory }) => {
     const onInputChange = ({ target }) => { //para que mi input sea dinamico
 
         // console.log( event.target.value );
-        console.log( target.value ); //muestra letra por letras a medida que voy escribiendo
+        // console.log( target.value ); //muestra letra por letras a medida que voy escribiendo
 
         // setinputValue( event.target.value );
         setinputValue( target.value );

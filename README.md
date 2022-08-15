@@ -14,3 +14,9 @@ yarn dev
 VERIFICAR EN CHROME O EN POSTMAN EL LOCALHOST:
 ```
 http://127.0.0.1:5173/  o segun lo que diga la cmd o terminal de vs code
+```
+
+Link hacia Netlify:
+```
+https://gif-expert-app-alexander.netlify.app/
+```
