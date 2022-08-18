@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en GifExpertApp.jsx NO debe agregar una categoria repetida 1`] = `
+<div>
+  <h1>
+    GifExpertApp - By Alexander Martinez Millan
+  </h1>
+  <form
+    aria-label="form"
+  >
+    <input
+      placeholder="Buscar gifs"
+      type="text"
+      value=""
+    />
+  </form>
+  <h3>
+     
+    pc
+     
+  </h3>
+  <h2>
+    Cargando...
+  </h2>
+  <div
+    class="card-grid"
+  />
+</div>
+`;
+
+exports[`pruebas en GifExpertApp.jsx debe agregar una nueva categoria y hacer snapshoot 1`] = `
+<div>
+  <h1>
+    GifExpertApp - By Alexander Martinez Millan
+  </h1>
+  <form
+    aria-label="form"
+  >
+    <input
+      placeholder="Buscar gifs"
+      type="text"
+      value=""
+    />
+  </form>
+  <h3>
+     
+    pc
+     
+  </h3>
+  <h2>
+    Cargando...
+  </h2>
+  <div
+    class="card-grid"
+  />
+</div>
+`;

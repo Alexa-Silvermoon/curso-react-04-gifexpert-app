@@ -19,7 +19,7 @@ export const GifExpertApp = () => {
         // si la categoria existe, no la vuelva a incluir en el arreglo
         if ( categories.includes( onNewCategory ) ) return;
 
-        // setCategories( categories.concat('valorant') ); //funciona pero da problemas con lakey
+        // setCategories( categories.concat('valorant') ); //funciona pero da problemas con la key
         setCategories([  onNewCategory, ...categories ]); // funciona pero tambien da problemas con la key
         // setCategories( cat => [ ...cat,'valorant']); // funciona pero tambien da problemas con la key
 
@@ -34,7 +34,7 @@ export const GifExpertApp = () => {
 
             {/* input */}
             {/* {<AddCategory setCategories={ setCategories }></AddCategory>} */}
-            <AddCategory onNewCategory={ ( value ) => onAddCategory( value )} ></AddCategory>
+            <AddCategory onNewCategory={ ( value ) => onAddCategory( value )} ></AddCategory> {/* todo comienza aqui en el input en AddCategory */}
 
             {/* listado de gif */}
             {/* <button onclick={ onAddCategory }>Agregar</button> */}

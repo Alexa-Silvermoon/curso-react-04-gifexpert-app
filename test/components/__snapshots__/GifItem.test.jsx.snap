@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GifItem.jsx Evaluar el snapshot, title obligatorio con propTypes 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="string title"
+      src="https://ejemplo.com/imagen.jpg"
+    />
+    <p>
+      string title
+    </p>
+  </div>
+</div>
+`;

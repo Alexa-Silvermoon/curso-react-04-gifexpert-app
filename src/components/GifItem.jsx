@@ -1,4 +1,6 @@
 
+import propTypes from 'prop-types';
+
 // export const GifItem = ( props ) => {
 // export const GifItem = ( { image } ) => {
 export const GifItem = ( { title, url, id } ) => {
@@ -19,3 +21,10 @@ export const GifItem = ( { title, url, id } ) => {
   )
 }
  // https://www.udemy.com/course/react-cero-experto/learn/lecture/19758956#questions
+
+GifItem.propTypes = {
+
+  title: propTypes.string.isRequired,
+  url: propTypes.string.isRequired
+  
+}

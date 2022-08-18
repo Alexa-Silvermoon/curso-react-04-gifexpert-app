@@ -9,7 +9,7 @@ export const useFetchGifs = ( category ) => {
     const getImages = async() => {
 
     const newImages = await getGifs( category );
-    setImages( newImages );
+    setImages( newImages ); // cambia el estado de images
     SetIsLoading( false ); //cuando la imagen se trae, se pone en false el set iniciando que ya termino de traer,
     // eso se vera reflejando en isLoading && ( <h2>Cargando...</h2> ) // forma 2
 
@@ -19,7 +19,7 @@ export const useFetchGifs = ( category ) => {
 
         getImages();
     
-    }, [])
+    }, []);
 
   return{
 

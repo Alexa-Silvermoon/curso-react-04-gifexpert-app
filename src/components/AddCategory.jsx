@@ -1,4 +1,5 @@
 import { useState } from "react"
+import  PropTypes  from 'prop-types';
 
 // export const AddCategory = ({ setCategories }) => {
 export const AddCategory = ({ onNewCategory }) => {
@@ -32,7 +33,8 @@ export const AddCategory = ({ onNewCategory }) => {
   return (
 
     // <form onSubmit={ ( event ) => onSubmit( event )}>
-    <form onSubmit={ onSubmit }>
+    // aria-label se usa para AddCategory.test.jsx
+    <form onSubmit={ onSubmit } aria-label="form">
 
         <input
             type="text"
@@ -45,4 +47,9 @@ export const AddCategory = ({ onNewCategory }) => {
     </form>
 
   )
+}
+
+AddCategory.propTypes = {
+
+    onNewCategory: PropTypes.func.isRequired //func de function
 }
