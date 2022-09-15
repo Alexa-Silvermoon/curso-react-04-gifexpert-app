@@ -6,7 +6,7 @@ import { AddCategory, GifGrid } from './components/';
 export const GifExpertApp = () => {
 
     // arreglo de categorias:
-    const [categories, setCategories] = useState(['pc']);
+    const [categories, setCategories] = useState(['microsoft']);
     // NOTA: los hooks no deben ir dentro de condicionales
     // console.log( categories );
 

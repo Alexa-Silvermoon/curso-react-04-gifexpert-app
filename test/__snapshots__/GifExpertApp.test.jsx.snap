@@ -14,6 +14,7 @@ exports[`pruebas en GifExpertApp.jsx NO debe agregar una categoria repetida 1`] 
       value=""
     />
   </form>
+   
   <h3>
      
     pc
@@ -42,6 +43,7 @@ exports[`pruebas en GifExpertApp.jsx debe agregar una nueva categoria y hacer sn
       value=""
     />
   </form>
+   
   <h3>
      
     pc
